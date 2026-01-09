@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  background: #0a3d2e;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 12px;
+}
+
+.logo {
+  width: 220px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+}
+
+input:disabled {
+  background: #555;
+  color: #ccc;
+}
+
+.partido {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  margin: 8px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 3px;
+}
+
+button:disabled {
+  background: gray;
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.seleccionado {
+  background: gold;
+  color: black;
+}
+
+.whatsapp {
+  display: block;
+  margin: 15px;
+  padding: 12px;
+  background: green;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#contador {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+#contador.cerrado {
+  color: red;
+}
+
+.registro {
+  margin: 5px 0;
+  text-align: left;
+}
