@@ -1,7 +1,7 @@
 /****************************
  * CONFIGURACIÓN
  ****************************/
-const SHEET_URL = "https://script.google.com/macros/s/AKfycbxo4gsewjfXVUNYXfG7OXhCu9U3NqvYAHf_jW4vJyn2vzcl2ZuYASTS0zdir4IOx4BNnQ/exec";
+const SHEET_URL = "https://script.google.com/macros/s/AKfycbyBnK4VEkwfvWbkaw26vQPD4sLXnhcHfKycHHxyKAjDNvtY_64GkW2uFO5OXvRgrXe49Q/exec";
 const WHATSAPP_NUMERO = "522731180394"; // México
 
 /****************************
@@ -249,3 +249,4 @@ function contador() {
 }
 
 contador();
+
